@@ -1,6 +1,6 @@
 # Deployment Plan: TasteTrail AI on Streamlit Community Cloud
 
-This document provides a step-by-step guide to deploying the Streamlit version of the restaurant recommendation system (`app/presentation/ui.py`) on **Streamlit Community Cloud**.
+This document provides a step-by-step guide to deploying the Streamlit version of the restaurant recommendation system (`streamlit_app.py`) on **Streamlit Community Cloud**.
 
 ---
 
@@ -15,7 +15,7 @@ Before starting, ensure that:
    - `pydantic`
    - `python-dotenv`
    - `groq`
-3. The entry point of the Streamlit application is located at `app/presentation/ui.py`. The application has built-in path bootstrapping to prevent import errors (`ModuleNotFoundError: app`) when deployed.
+3. The entry point of the Streamlit application is located at `streamlit_app.py` in the root (which delegates to `app/presentation/ui.py`). The application has built-in path bootstrapping to prevent import errors (`ModuleNotFoundError: app`) when deployed.
 
 ---
 
@@ -32,7 +32,7 @@ Streamlit Community Cloud is a free hosting service provided by Streamlit.
 2. Fill in the deployment details:
    - **Repository**: Choose the GitHub repository containing the project.
    - **Branch**: Select the deployment branch (typically `main` or `master`).
-   - **Main file path**: Enter `app/presentation/ui.py`.
+   - **Main file path**: Enter `streamlit_app.py`.
 
 ### Step 2.3: Configure Secrets (Environment Variables)
 Since the recommendation engine relies on environment variables (such as the Hugging Face dataset ID and the Groq API key), you must set these up in Streamlit Cloud:
