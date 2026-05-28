@@ -1,0 +1,19 @@
+# Hugging Face dataset
+HF_DATASET_ID=ManikaSaini/zomato-restaurant-recommendation
+
+# Ingestion
+HF_LOAD_RETRIES=3
+HF_LOAD_RETRY_DELAY_SEC=2
+
+# Filter / recommendations
+MAX_CANDIDATES=30
+DEFAULT_TOP_N=5
+FALLBACK_RELAXATION=true
+
+# LLM — Groq (Phase 3+)
+LLM_PROVIDER=groq
+LLM_MODEL=llama-3.3-70b-versatile
+LLM_TEMPERATURE=0.3
+GROQ_API_KEY=
+
+# Use mock LLM without Groq (CI / offline): LLM_PROVIDER=mock

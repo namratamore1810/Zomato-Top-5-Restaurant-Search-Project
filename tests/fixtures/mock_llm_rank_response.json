@@ -1,0 +1,15 @@
+{
+  "summary": "Fixture summary for parser and engine tests.",
+  "recommendations": [
+    {
+      "restaurant_id": "res1",
+      "rank": 1,
+      "explanation": "Top Italian pick in Bangalore."
+    },
+    {
+      "restaurant_id": "res2",
+      "rank": 2,
+      "explanation": "Solid pizza and pasta options."
+    }
+  ]
+}

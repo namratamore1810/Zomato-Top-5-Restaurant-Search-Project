@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.zomato.com/bangalore/jalsa-banashankari",
+    "name": "Jalsa",
+    "address": "942, 21st Main Road, Banashankari, Bangalore",
+    "rate": "4.1/5",
+    "votes": 775,
+    "location": "Banashankari",
+    "cuisines": "North Indian, Mughlai, Chinese",
+    "approx_cost(for two people)": "800",
+    "listed_in(city)": "Bangalore",
+    "rest_type": "Casual Dining",
+    "online_order": "Yes",
+    "book_table": "Yes"
+  },
+  {
+    "url": "https://www.zomato.com/delhi/onesta-connaught-place",
+    "name": "Onesta",
+    "address": "Connaught Place, New Delhi",
+    "rate": "4.6/5",
+    "votes": 2556,
+    "location": "Connaught Place",
+    "cuisines": "Pizza, Cafe, Italian",
+    "approx_cost(for two people)": "1,000",
+    "listed_in(city)": "Delhi",
+    "rest_type": "Casual Dining",
+    "online_order": "Yes",
+    "book_table": "No"
+  },
+  {
+    "url": "https://www.zomato.com/bangalore/spice-elephant-bellandur",
+    "name": "Spice Elephant",
+    "address": "Bellandur, Bangalore",
+    "rate": "4.1/5",
+    "votes": 787,
+    "location": "Bellandur",
+    "cuisines": "Chinese, North Indian, Thai",
+    "approx_cost(for two people)": "300",
+    "listed_in(city)": "Bangalore",
+    "rest_type": "Casual Dining",
+    "online_order": "Yes",
+    "book_table": "No"
+  },
+  {
+    "name": "",
+    "rate": "4.0/5",
+    "location": "Koramangala",
+    "cuisines": "Italian",
+    "approx_cost(for two people)": "500",
+    "listed_in(city)": "Bangalore"
+  },
+  {
+    "url": "https://www.zomato.com/bangalore/new-cafe",
+    "name": "New Place",
+    "rate": "NEW",
+    "votes": 10,
+    "location": "Indiranagar",
+    "cuisines": "Cafe",
+    "approx_cost(for two people)": "400",
+    "listed_in(city)": "Bangalore"
+  },
+  {
+    "url": "https://www.zomato.com/bangalore/no-city",
+    "name": "No City Restaurant",
+    "rate": "3.8/5",
+    "votes": 50,
+    "location": "",
+    "cuisines": "South Indian",
+    "approx_cost(for two people)": "250",
+    "listed_in(city)": ""
+  },
+  {
+    "url": "https://www.zomato.com/bangalore/budget-bites",
+    "name": "Budget Bites",
+    "rate": "3.5/5",
+    "votes": 120,
+    "location": "BTM",
+    "cuisines": "South Indian",
+    "approx_cost(for two people)": "150",
+    "listed_in(city)": "Bangalore"
+  },
+  {
+    "url": "https://www.zomato.com/bangalore/premium-dine",
+    "name": "Premium Dine",
+    "rate": "4.8/5",
+    "votes": 900,
+    "location": "MG Road",
+    "cuisines": "Continental, Italian",
+    "approx_cost(for two people)": "2,500",
+    "listed_in(city)": "Bangalore"
+  }
+]

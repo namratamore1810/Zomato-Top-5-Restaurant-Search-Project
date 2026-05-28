@@ -1,0 +1,68 @@
+[
+  {
+    "url": "https://www.zomato.com/bangalore/italian-one",
+    "name": "Trattoria One",
+    "address": "Koramangala, Bangalore",
+    "rate": "4.5/5",
+    "votes": 500,
+    "location": "Koramangala",
+    "cuisines": "Italian",
+    "approx_cost(for two people)": "800",
+    "listed_in(city)": "Bangalore"
+  },
+  {
+    "url": "https://www.zomato.com/bangalore/italian-two",
+    "name": "Trattoria Two",
+    "address": "Indiranagar, Bangalore",
+    "rate": "4.4/5",
+    "votes": 450,
+    "location": "Indiranagar",
+    "cuisines": "Italian, Pizza",
+    "approx_cost(for two people)": "700",
+    "listed_in(city)": "Bangalore"
+  },
+  {
+    "url": "https://www.zomato.com/bangalore/italian-three",
+    "name": "Trattoria Three",
+    "address": "HSR Layout, Bangalore",
+    "rate": "4.3/5",
+    "votes": 400,
+    "location": "HSR Layout",
+    "cuisines": "Italian",
+    "approx_cost(for two people)": "600",
+    "listed_in(city)": "Bangalore"
+  },
+  {
+    "url": "https://www.zomato.com/bangalore/italian-four",
+    "name": "Trattoria Four",
+    "address": "Whitefield, Bangalore",
+    "rate": "4.2/5",
+    "votes": 350,
+    "location": "Whitefield",
+    "cuisines": "Italian, Continental",
+    "approx_cost(for two people)": "900",
+    "listed_in(city)": "Bangalore"
+  },
+  {
+    "url": "https://www.zomato.com/bangalore/italian-five",
+    "name": "Trattoria Five",
+    "address": "Jayanagar, Bangalore",
+    "rate": "4.1/5",
+    "votes": 300,
+    "location": "Jayanagar",
+    "cuisines": "Italian",
+    "approx_cost(for two people)": "550",
+    "listed_in(city)": "Bangalore"
+  },
+  {
+    "url": "https://www.zomato.com/bangalore/italian-six",
+    "name": "Trattoria Six",
+    "address": "MG Road, Bangalore",
+    "rate": "4.0/5",
+    "votes": 250,
+    "location": "MG Road",
+    "cuisines": "Italian, Cafe",
+    "approx_cost(for two people)": "650",
+    "listed_in(city)": "Bangalore"
+  }
+]
