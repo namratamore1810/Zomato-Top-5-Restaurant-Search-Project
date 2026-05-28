@@ -34,11 +34,16 @@ app = FastAPI(
     title="TasteTrail AI API",
     description="Backend API for Zomato Top 5 restaurant recommendation engine.",
 )
+# Enable CORS for frontend development and production
+import os
+allowed_origins = ["*"]
+env_origins = os.getenv("ALLOWED_ORIGINS")
+if env_origins:
+    allowed_origins = [o.strip() for o in env_origins.split(",") if o.strip()]
 
-# Enable CORS for frontend development
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Allows all origins in development
+    allow_origins=allowed_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
